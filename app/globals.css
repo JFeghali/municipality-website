@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+  direction: ltr;
+}
+
+html[lang='ar'] {
+  direction: rtl;
+  font-family: 'Tajawal', sans-serif;
+}
