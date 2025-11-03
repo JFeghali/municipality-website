@@ -136,17 +136,18 @@ export default function ContactUsPage() {
             </p>
           </div>
           <div className="flex-1">
-           <iframe
+<iframe
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13253.327016466272!2d35.56316!3d33.81892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDUwJzU5LjMiTiAzNcKwMzMnMzcuMyJF!5e0!3m2!1sen!2slb!4v0000000000000"
   width="100%"
-  height="365"
-  frameborder="0"
-  style="border:0"
-  allowfullscreen=""
+  height={365} // number is allowed
+  frameBorder={0} // camelCase, number
+  style={{ border: 0 }} // object, not string
+  allowFullScreen // boolean
   loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade"
-  title="Wadi Chahrour El Olya Map">
-</iframe>
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Wadi Chahrour El Olya Map"
+/>
+
           </div>
         </div>
       </section>
